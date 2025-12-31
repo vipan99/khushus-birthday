@@ -51,11 +51,12 @@ const HeroSection = () => {
         </div>
       </div>
 
-      {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
-        <div className="w-6 h-10 border-2 border-rose/50 rounded-full flex justify-center pt-2">
-          <div className="w-1.5 h-3 bg-rose/60 rounded-full animate-pulse" />
-        </div>
+      {/* Navigation hint */}
+      <div className="absolute bottom-24 left-1/2 -translate-x-1/2 text-center animate-fade-in">
+        <p className="font-elegant text-foreground/60 text-sm">
+          Use the navigation buttons below or arrow keys
+        </p>
+        <span className="text-2xl">💕</span>
       </div>
     </section>
   );
